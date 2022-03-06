@@ -5,10 +5,8 @@ using System.Text;
 
 namespace _5._1
 {
-    public class CardPatientRecord
+    public class Reception
     {
-        
-
-
+        // перенаправление к определенному Employee
     }
 }

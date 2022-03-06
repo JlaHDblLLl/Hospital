@@ -5,10 +5,9 @@ using System.Text;
 
 namespace _5._1
 {
-    public class CardPatientRecord
+    public class ActionWithPatient
     {
-        
-
+        // будет проводить над пациентом действия
 
     }
 }
