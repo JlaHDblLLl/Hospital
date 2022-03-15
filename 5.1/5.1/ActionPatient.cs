@@ -8,6 +8,9 @@ namespace _5._1
     public class ActionWithPatient
     {
         // будет проводить над пациентом действия
+        public virtual void Do()
+        {
 
+        }
     }
 }

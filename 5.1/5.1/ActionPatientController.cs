@@ -8,11 +8,10 @@ namespace _5._1
     public class ActionWithPatientController
     {
         // используется в Employee.Action
-        List<ActionWithPatient> actionWithPatient = new List<ActionWithPatient>();
-
-        public ActionWithPatientController(ActionWithPatient action)
+        IEnumerable<Doctor> 
+        public void ActionDeterminate(ActionWithPatient action)
         {
-            actionWithPatient.Add(action);
+            
         }
     }
 }

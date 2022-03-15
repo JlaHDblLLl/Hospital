@@ -3,7 +3,7 @@
   <Class Name="_5._1.Patient">
     <Position X="0.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>Patient.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -17,12 +17,12 @@
   <Class Name="_5._1.PatientCard">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <HashCode>IAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>PatientCard.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.CardPatientRecord">
-    <Position X="12.25" Y="5" Width="1.5" />
+    <Position X="8.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CardPatientRecord.cs</FileName>
@@ -36,9 +36,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.ActionWithPatient">
-    <Position X="11.75" Y="0.75" Width="1.5" />
+    <Position X="15" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ActionPatient.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -50,24 +50,73 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.Employee">
-    <Position X="14.5" Y="0.75" Width="1.5" />
+    <Position X="21.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.ActionWithPatientController">
-    <Position X="9.25" Y="2.25" Width="1.5" />
+    <Position X="13" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ActionPatientController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.Doctor">
-    <Position X="14.5" Y="3" Width="1.5" />
+    <Position X="20.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.Heal">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Heal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.DutyDoctor">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DutyDoctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.MainDoctor">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainDoctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.Nurse">
+    <Position X="25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nurse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.Inspection">
+    <Position X="16.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inspection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.Redirect">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Redirect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.WriteOut">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WriteOut.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

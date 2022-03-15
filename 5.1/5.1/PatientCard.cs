@@ -7,6 +7,7 @@ namespace _5._1
 {
     public class PatientCard
     {
+        IEnumerable<Record> Records;
         public Patient Patient { get; set; }
         public string Diagnose { get; set; }
         public string Comment { get; set; }
