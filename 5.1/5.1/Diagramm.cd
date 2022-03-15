@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.PatientsController">
-    <Position X="0.75" Y="2.75" Width="1.5" />
+    <Position X="0.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PatientsController.cs</FileName>
@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.PatientCardController">
-    <Position X="3.5" Y="2.75" Width="1.5" />
+    <Position X="3.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PatientCardController.cs</FileName>
@@ -45,26 +45,21 @@
   <Class Name="_5._1.Reception">
     <Position X="9.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAEAAA=</HashCode>
       <FileName>Reception.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_5._1.Employee">
     <Position X="21.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAEAAAAEAAA=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="_5._1.ActionWithPatientController">
-    <Position X="13" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ActionPatientController.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_5._1.Doctor">
-    <Position X="20.75" Y="2.75" Width="1.5" />
+    <Position X="20.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Doctor.cs</FileName>
@@ -78,21 +73,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.DutyDoctor">
-    <Position X="18.75" Y="2.75" Width="1.5" />
+    <Position X="18.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DutyDoctor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.MainDoctor">
-    <Position X="22.75" Y="2.75" Width="1.5" />
+    <Position X="22.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainDoctor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.Nurse">
-    <Position X="25" Y="2.75" Width="1.5" />
+    <Position X="25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Nurse.cs</FileName>
@@ -119,5 +114,12 @@
       <FileName>WriteOut.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="_5._1.IQueuePatients">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAA=</HashCode>
+      <FileName>QueuePatients.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
