@@ -17,22 +17,15 @@
   <Class Name="_5._1.PatientCard">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>PatientCard.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.CardPatientRecord">
-    <Position X="8.25" Y="2.75" Width="1.5" />
+    <Position X="9" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CardPatientRecord.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="_5._1.PatientCardController">
-    <Position X="3.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PatientCardController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.ActionWithPatient">
@@ -53,10 +46,9 @@
   <Class Name="_5._1.Employee">
     <Position X="21.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAEAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_5._1.Doctor">
     <Position X="20.75" Y="3.75" Width="1.5" />
@@ -114,11 +106,40 @@
       <FileName>WriteOut.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="_5._1.EmployeeAction">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAEAAAAEAAA=</HashCode>
+      <FileName>EmployeeAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_5._1.PatientCardController">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PatientCardController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5._1.Record">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Record.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="_5._1.IQueuePatients">
     <Position X="8.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAA=</HashCode>
       <FileName>QueuePatients.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_5._1.IRepository&lt;T&gt;">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRepository.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

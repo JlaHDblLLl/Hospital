@@ -7,16 +7,11 @@ namespace _5._1
 {
     public class PatientCard
     {
-        IEnumerable<Record> Records;
-        public Patient Patient { get; set; }
-        public string Diagnose { get; set; }
-        public string Comment { get; set; }
-
-        public PatientCard(Patient patient, string diagnose, string comment)
+        public IRepository<Record> Records;
+        Patient Patient { get; set; }
+        public PatientCard(Patient patient)
         {
-            Patient = patient;
-            Diagnose = diagnose;
-            Comment = comment;
+            this.Patient = patient;
         }
     }
 }
