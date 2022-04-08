@@ -9,7 +9,6 @@ namespace _5._1
     {
         public override void Do()
         {
-            base.Do();
 
         }
     }

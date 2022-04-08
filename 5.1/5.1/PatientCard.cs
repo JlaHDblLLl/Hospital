@@ -7,10 +7,12 @@ namespace _5._1
 {
     public class PatientCard
     {
+        public int Id { get; set; }
         public IRepository<Record> Records;
-        Patient Patient { get; set; }
-        public PatientCard(Patient patient)
+        public Patient Patient { get; set; }
+        public PatientCard(int id, Patient patient)
         {
+            this.Id = id;
             this.Patient = patient;
         }
     }

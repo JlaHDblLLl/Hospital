@@ -7,10 +7,16 @@ namespace _5._1
 {
     public class ActionWithPatient
     {
-        // будет проводить над пациентом действия
-        public virtual void Do()
+        ICardPatientRecord CardPatientRecord;
+        //PatientCardHandler PatientCardHandler { get; set; }
+        public virtual void Do(PatientCard patientCard)
         {
-
+            //реализация добавления в определенную карту с определенным пациентом
         }
+
+        //public ActionWithPatient(PatientCardHandler patientCardHandler)
+        //{
+        //    PatientCardHandler = patientCardHandler;
+        //}
     }
 }

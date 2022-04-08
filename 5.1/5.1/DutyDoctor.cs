@@ -7,9 +7,11 @@ namespace _5._1
 {
     public class DutyDoctor : Employee
     {
+        public Adress AdressOfWork { get; set; }
         IEnumerable<ActionWithPatient> Actions;
-        public DutyDoctor(string name, IEnumerable<ActionWithPatient> action) : base(name)
+        public DutyDoctor(string name, Adress adress, IEnumerable<ActionWithPatient> action) : base(name)
         {
+            this.AdressOfWork = adress;
             this.Actions = action;
         }
     }

@@ -7,17 +7,36 @@ namespace _5._1
 {
     public class Reception : IQueuePatients
     {
-        Queue<Patient> Patients = new Queue<Patient>();
+        Queue<Patient> QPatients = new Queue<Patient>();
+        PatientCardHandler PatientCardHandler { get; set; }
+        EmployeeHandler EmployeeConteiner { get; set; }
         public void PatientCome(Patient patient)
         {
-            Patients.Enqueue(patient);
+            QPatients.Enqueue(patient);
         }
-        public void PatientDistribution()
+        public void PatientPerformance()
         {
-            Patient patient = Patients.Dequeue();
-            // можно сделать реализацию с помощью LINQ и базы данных адрессов
-
-
+            Patient patient = QPatients.Dequeue();
+            var card = PatientCardHandler.patientCards.Find(card => card.Patient == patient);
+            if (card != null)
+            {
+                var doctor = EmployeeConteiner.Employees.GetAll().OfType<DutyDoctor>().FirstOrDefault(d => d.AdressOfWork == card.Patient.Adress);
+                if (doctor != null)
+                {
+                    EmployeeAction employeeAction = new EmployeeAction(doctor, card);
+                } 
+            }
+        }
+        public Reception(PatientCardHandler patientCardHandler, EmployeeHandler employeeHandler)
+        {
+            this.PatientCardHandler = patientCardHandler;
+            this.EmployeeConteiner = employeeHandler;
+        }
+        public Reception(PatientCardHandler patientCardHandler, EmployeeHandler employeeHandler, Queue<Patient> patients)
+        {
+            this.QPatients = patients;
+            this.PatientCardHandler = patientCardHandler;
+            this.EmployeeConteiner = employeeHandler;
         }
     }
 }

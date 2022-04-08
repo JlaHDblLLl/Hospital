@@ -8,6 +8,6 @@ namespace _5._1
     public interface IQueuePatients
     {
         public void PatientCome(Patient patient);
-        public void PatientDistribution();
+        public void PatientPerformance();
     }
 }

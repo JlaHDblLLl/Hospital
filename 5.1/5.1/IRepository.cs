@@ -9,6 +9,8 @@ namespace _5._1
     {
         public T Get();
         public void Insert(T item);
+        public T Find(Func<T, bool> func);
+        public IEnumerable<T> GetAll();
         public void Update();
 
     }

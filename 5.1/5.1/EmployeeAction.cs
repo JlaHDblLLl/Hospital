@@ -5,25 +5,22 @@ using System.Text;
 
 namespace _5._1
 {
-    public class EmployeeAction : IQueuePatients
+    public class EmployeeAction 
     {
-        Queue<Patient> Patients = new Queue<Patient>();
+        PatientCard PatientCard { get; set; }
         Employee Employee { get; set; }
-        public void PatientCome(Patient patient)
-        {
-            Patients.Enqueue(patient);
-        }
 
-        public void PatientDistribution()
+        public void PatientPerformance()
         {
-            while (Patients.Count > 0)
-            {
-                Patient patient = Patients.Dequeue();
-                // определить что с ним делать(можно метод в отдельном классе)
-            }
+            // 1. По чем искать проблему?
+            // 2. Как выбрать именно то действие, которое нам нужно
+            // 3. Правильно ли все?)
+            var action = Employees.Find();
+            
         }
-        public EmployeeAction(Employee employee)
+        public EmployeeAction(Employee employee, PatientCard patientCard)
         {
+            PatientCard = patientCard;
             Employee = employee; 
         }
     }
