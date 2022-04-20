@@ -13,13 +13,14 @@ namespace _5._1
         public void PatientPerformance()
         {
             Console.WriteLine("Введите действие которое хотите сделать с пациентом: ");
-            for (int i = 0; i < Employee.Actions.Count; i++)
+            foreach (var item in Employee.Actions.GetAll())
             {
-                Console.WriteLine($"{i + 1} : {Employee.Actions[i]}");
+                Console.WriteLine($"{item.ID} : {item}");
             }
-            string choise = Console.ReadLine();
 
-            Employee.Actions[Convert.ToInt32(choise)].Do(this.PatientCard);
+            int choise = Convert.ToInt32(Console.ReadLine()) - 49;
+
+            Employee.Actions.Find(action => choise == action.ID).Do(this.PatientCard);
 
         }
         public EmployeeAction(Employee employee, PatientCard patientCard)

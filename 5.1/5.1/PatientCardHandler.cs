@@ -9,9 +9,9 @@ namespace _5._1
     {
         public IRepository<PatientCard> patientCards;
 
-        public PatientCardHandler(PatientCard card)
+        public PatientCardHandler(IRepository<PatientCard> cards)
         {
-            patientCards.Insert(card);
+            patientCards = cards;
         }
     }
 }

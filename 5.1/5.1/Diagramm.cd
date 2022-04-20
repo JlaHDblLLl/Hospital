@@ -17,7 +17,7 @@
   <Class Name="_5._1.ActionWithPatient">
     <Position X="14" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ActionPatient.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -64,20 +64,13 @@
       <FileName>MainDoctor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="_5._1.Nurse">
-    <Position X="25" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Nurse.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="_5._1.Redirect">
     <Position X="15.75" Y="3" Width="1.5" />
     <InheritanceLine Type="_5._1.ActionWithPatient" FixedToPoint="true">
       <Path>
-        <Point X="14.75" Y="2.055" />
-        <Point X="14.75" Y="2.625" />
-        <Point X="16.5" Y="2.625" />
+        <Point X="14.75" Y="2.699" />
+        <Point X="14.75" Y="2.846" />
+        <Point X="16.5" Y="2.846" />
         <Point X="16.5" Y="3" />
       </Path>
     </InheritanceLine>
