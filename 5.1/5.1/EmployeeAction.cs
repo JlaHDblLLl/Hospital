@@ -12,11 +12,15 @@ namespace _5._1
 
         public void PatientPerformance()
         {
-            // 1. По чем искать проблему?
-            // 2. Как выбрать именно то действие, которое нам нужно
-            // 3. Правильно ли все?)
-            var action = Employees.Find();
-            
+            Console.WriteLine("Введите действие которое хотите сделать с пациентом: ");
+            for (int i = 0; i < Employee.Actions.Count; i++)
+            {
+                Console.WriteLine($"{i + 1} : {Employee.Actions[i]}");
+            }
+            string choise = Console.ReadLine();
+
+            Employee.Actions[Convert.ToInt32(choise)].Do(this.PatientCard);
+
         }
         public EmployeeAction(Employee employee, PatientCard patientCard)
         {

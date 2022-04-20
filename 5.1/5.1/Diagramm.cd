@@ -17,7 +17,7 @@
   <Class Name="_5._1.ActionWithPatient">
     <Position X="14" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAIAA=</HashCode>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ActionPatient.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -43,11 +43,11 @@
       <FileName>Doctor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="_5._1.Heal">
-    <Position X="13.25" Y="3" Width="1.5" />
+  <Class Name="_5._1.WriteRecipe">
+    <Position X="14" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Heal.cs</FileName>
+      <FileName>WriteRecipe.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.DutyDoctor">
@@ -71,22 +71,23 @@
       <FileName>Nurse.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="_5._1.Inspection">
-    <Position X="16.75" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Inspection.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="_5._1.Redirect">
-    <Position X="15" Y="3" Width="1.5" />
+    <Position X="15.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="_5._1.ActionWithPatient" FixedToPoint="true">
+      <Path>
+        <Point X="14.75" Y="2.055" />
+        <Point X="14.75" Y="2.625" />
+        <Point X="16.5" Y="2.625" />
+        <Point X="16.5" Y="3" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Redirect.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.WriteOut">
-    <Position X="11.5" Y="3" Width="1.5" />
+    <Position X="12.25" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>WriteOut.cs</FileName>
@@ -102,7 +103,7 @@
   <Class Name="_5._1.Record">
     <Position X="7" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Record.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -132,13 +133,6 @@
     <TypeIdentifier>
       <HashCode>AAQAAEAAAAAAAABAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
       <FileName>IRepository.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="_5._1.ICardPatientRecord">
-    <Position X="5" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ICardPatientRecord.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

@@ -7,16 +7,12 @@ namespace _5._1
 {
     public class ActionWithPatient
     {
-        ICardPatientRecord CardPatientRecord;
-        //PatientCardHandler PatientCardHandler { get; set; }
+        public string Comment;
         public virtual void Do(PatientCard patientCard)
         {
-            //реализация добавления в определенную карту с определенным пациентом
+            Console.WriteLine("Введите комментарий:");
+            string Comment = Console.ReadLine();
+            this.Comment = Comment;
         }
-
-        //public ActionWithPatient(PatientCardHandler patientCardHandler)
-        //{
-        //    PatientCardHandler = patientCardHandler;
-        //}
     }
 }

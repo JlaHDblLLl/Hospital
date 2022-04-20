@@ -8,7 +8,7 @@ namespace _5._1
     public class Employee
     {
         public string Name { get; set; }
-        public IRepository<ActionWithPatient> Actions { get; set; }
+        public List<ActionWithPatient> Actions { get; set; }
 
         public Employee(string name)
         {

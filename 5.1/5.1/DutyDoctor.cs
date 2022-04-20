@@ -8,7 +8,7 @@ namespace _5._1
     public class DutyDoctor : Employee
     {
         public Adress AdressOfWork { get; set; }
-        IEnumerable<ActionWithPatient> Actions;
+        IEnumerable<ActionWithPatient> Actions = { new WriteRecipe() };
         public DutyDoctor(string name, Adress adress, IEnumerable<ActionWithPatient> action) : base(name)
         {
             this.AdressOfWork = adress;

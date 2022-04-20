@@ -10,6 +10,7 @@ namespace _5._1
         public string Name { get; set; }
         public string SerName { get; set; }
         public Adress Adress { get; set; }
+        public 
 
         public Patient(int id, string name, string serName, Adress adress)
         {

@@ -7,9 +7,13 @@ namespace _5._1
 {
     public class WriteOut : ActionWithPatient
     {
-        public override void Do()
+        public override void Do(PatientCard patientCard)
         {
-
+            base.Do(patientCard);
+            Console.WriteLine("Введите диагноз:");
+            string Diagnose = Console.ReadLine();
+            Record record = new Record(Diagnose, base.Comment);
+            patientCard.Records.Insert(record);
         }
     }
 }

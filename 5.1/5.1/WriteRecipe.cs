@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _5._1
 {
-    public class Heal : ActionWithPatient
+    public class WriteRecipe : ActionWithPatient
     {
         public override void Do()
         {
