@@ -7,26 +7,30 @@ namespace _5._1
 {
     public class EmployeeAction 
     {
+        EmployeeHandler EmployeeHandler { get; set; }
         PatientCard PatientCard { get; set; }
         Employee Employee { get; set; }
 
         public void PatientPerformance()
         {
             Console.WriteLine("Введите действие которое хотите сделать с пациентом: ");
+            int i = 0;
             foreach (var item in Employee.Actions.GetAll())
             {
-                Console.WriteLine($"{item.ID} : {item}");
+                i++;
+                Console.WriteLine($"{i} : {item}");
             }
 
             int choise = Convert.ToInt32(Console.ReadLine()) - 49;
 
-            Employee.Actions.Find(action => choise == action.ID).Do(this.PatientCard);
+            Employee.Actions.Get(choise).Do(this.PatientCard, EmployeeHandler);
 
         }
-        public EmployeeAction(Employee employee, PatientCard patientCard)
+        public EmployeeAction(Employee employee, PatientCard patientCard, EmployeeHandler employeeHandler)
         {
-            PatientCard = patientCard;
-            Employee = employee; 
+            this.EmployeeHandler = employeeHandler;
+            this.PatientCard = patientCard;
+            this.Employee = employee; 
         }
     }
 }

@@ -23,7 +23,7 @@ namespace _5._1
                 var doctor = EmployeeConteiner.Employees.GetAll().OfType<DutyDoctor>().FirstOrDefault(d => d.AdressOfWork == card.Patient.Adress);
                 if (doctor != null)
                 {
-                    EmployeeAction employeeAction = new EmployeeAction(doctor, card);
+                    EmployeeAction employeeAction = new EmployeeAction(doctor, card, EmployeeConteiner);
                 } 
             }
         }

@@ -17,8 +17,8 @@
   <Class Name="_5._1.ActionWithPatient">
     <Position X="14" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ActionPatient.cs</FileName>
+      <HashCode>AAAAAAAEAgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActionWithPatient.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.Reception">
@@ -37,7 +37,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.Doctor">
-    <Position X="20.75" Y="3.75" Width="1.5" />
+    <Position X="21.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Doctor.cs</FileName>
@@ -51,14 +51,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.DutyDoctor">
-    <Position X="18.75" Y="3.75" Width="1.5" />
+    <Position X="19.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DutyDoctor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.MainDoctor">
-    <Position X="22.75" Y="3.75" Width="1.5" />
+    <Position X="24.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MainDoctor.cs</FileName>
@@ -68,9 +68,9 @@
     <Position X="15.75" Y="3" Width="1.5" />
     <InheritanceLine Type="_5._1.ActionWithPatient" FixedToPoint="true">
       <Path>
-        <Point X="14.75" Y="2.699" />
-        <Point X="14.75" Y="2.846" />
-        <Point X="16.5" Y="2.846" />
+        <Point X="14.75" Y="2.507" />
+        <Point X="14.75" Y="2.625" />
+        <Point X="16.5" Y="2.625" />
         <Point X="16.5" Y="3" />
       </Path>
     </InheritanceLine>
@@ -89,7 +89,7 @@
   <Class Name="_5._1.EmployeeAction">
     <Position X="19.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAgAAAA=</HashCode>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAQAACAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>EmployeeAction.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -108,21 +108,29 @@
     </TypeIdentifier>
   </Class>
   <Class Name="_5._1.EmployeeHandler">
-    <Position X="22.25" Y="6.5" Width="1.5" />
+    <Position X="21.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>EmployeeHandler.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="_5._1.Repository&lt;T&gt;">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAkAAAAAAAABAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="_5._1.IQueuePatients">
     <Position X="8.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAA=</HashCode>
-      <FileName>QueuePatients.cs</FileName>
+      <FileName>IQueuePatients.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="_5._1.IRepository&lt;T&gt;">
-    <Position X="7" Y="5.5" Width="1.5" />
+    <Position X="7" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAEAAAAAAAABAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
       <FileName>IRepository.cs</FileName>

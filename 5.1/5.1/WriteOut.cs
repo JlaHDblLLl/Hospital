@@ -8,16 +8,13 @@ namespace _5._1
     public class WriteOut : ActionWithPatient
     {
 
-        public override void Do(PatientCard patientCard)
+        public override void Do(PatientCard patientCard, EmployeeHandler employeeHandler)
         {
-            base.Do(patientCard);
+            base.Do(patientCard, employeeHandler);
             Console.WriteLine("Введите диагноз:");
             string Diagnose = Console.ReadLine();
             Record record = new Record(Diagnose, base.Comment);
             patientCard.Records.Insert(record);
-        }
-        public WriteOut(int id) : base(id)
-        {
         }
     }
 }

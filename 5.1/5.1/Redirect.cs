@@ -8,38 +8,27 @@ namespace _5._1
     public class Redirect : ActionWithPatient
     {
 
-        public override void Do(PatientCard patientCard)
+        public override void Do(PatientCard patientCard, EmployeeHandler employeeHandler)
         {
-            base.Do(patientCard);
+            base.Do(patientCard, employeeHandler);
             Record record = new Record(base.Comment);
             patientCard.Records.Insert(record);
             Patient patient = patientCard.Patient;
-            Console.WriteLine("Кому вы хотите перевести пациента?"); //вводить ли EmployeeConteiner? как решить по-другому
-            string chose = Console.ReadLine();
-
-            switch (chose)
+            Console.WriteLine("Кому вы хотите перевести пациента?");
+            int i = 0;
+            foreach (var item in base.EmployeeHandler.Employees.GetAll())
             {
-                case "1":
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                default:
-                    break;
+                i++;
+                Console.WriteLine($"{i} : {item}");
             }
+            int choise = Convert.ToInt32(Console.ReadLine()) - 49;
 
-            var doctor = EmployeeConteiner.Employees.GetAll().OfType<DutyDoctor>().FirstOrDefault(d => d.AdressOfWork == patientCard.Patient.Adress);
+            var doctor = EmployeeHandler.Employees.Get(choise);
             if (doctor != null)
             {
-                EmployeeAction employeeAction = new EmployeeAction(doctor, patientCard);
+                EmployeeAction employeeAction = new EmployeeAction(doctor, patientCard, employeeHandler);
             }
         }
 
-        public Redirect(int id) : base(id)
-        {
-        }
     }
 }
