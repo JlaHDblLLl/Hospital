@@ -21,7 +21,7 @@ namespace _5._1
                 Console.WriteLine($"{i} : {item}");
             }
 
-            int choise = Convert.ToInt32(Console.ReadLine()) - 49;
+            int choise = Convert.ToInt32(Console.ReadLine()) - 1;
 
             Employee.Actions.Get(choise).Do(this.PatientCard, EmployeeHandler);
 
@@ -30,7 +30,8 @@ namespace _5._1
         {
             this.EmployeeHandler = employeeHandler;
             this.PatientCard = patientCard;
-            this.Employee = employee; 
+            this.Employee = employee;
+            PatientPerformance();
         }
     }
 }

@@ -7,10 +7,8 @@ namespace _5._1
 {
     public class MainDoctor : Employee
     {
-        IEnumerable<ActionWithPatient> Actions;
-        public MainDoctor(string name, IEnumerable<ActionWithPatient> action) : base(name)
+        public MainDoctor(string name, IRepository<ActionWithPatient> actions) : base(name, actions)
         {
-            this.Actions = action;
         }
     }
 }

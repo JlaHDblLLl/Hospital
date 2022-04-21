@@ -5,13 +5,12 @@ using System.Text;
 
 namespace _5._1
 {
-    public interface IRepository<T>
+    public interface IRepository<T> where T: class
     {
         public T Get(int i);
         public void Insert(T item);
         public T Find(Func<T, bool> func);
         public IEnumerable<T> GetAll();
-        public void Update();
 
     }
 }

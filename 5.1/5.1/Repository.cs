@@ -4,9 +4,9 @@ using System.Text;
 
 namespace _5._1
 {
-    public class Repository<T> : IRepository<T>
+    public class Repository<T> : IRepository<T> where T : class
     {
-        IEnumerable<T?> list;
+        ICollection<T> list;
         public T Find(Func<T, bool> func)
         {
             foreach(var item in list)
@@ -29,12 +29,13 @@ namespace _5._1
 
         public void Insert(T item)
         {
-            list = list.Concat(new[] { item });
+            list.Add(item);
         }
 
-        public void Update()
+        public Repository(ICollection<T> collection)
         {
-            throw new NotImplementedException();
+            this.list = collection;
         }
+
     }
 }

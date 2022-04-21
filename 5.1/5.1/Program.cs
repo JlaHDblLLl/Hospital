@@ -10,7 +10,7 @@ namespace _5._1
     {
         static void Main(string[] args)
         {
-            
+            BobBuilder bobBuilder = new BobBuilder(new Patient(0, "Максим", "Ланцевич", new Adress("Кабяка", "56")));
         }       
     }
 }

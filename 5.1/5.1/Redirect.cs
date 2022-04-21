@@ -21,7 +21,7 @@ namespace _5._1
                 i++;
                 Console.WriteLine($"{i} : {item}");
             }
-            int choise = Convert.ToInt32(Console.ReadLine()) - 49;
+            int choise = Convert.ToInt32(Console.ReadLine()) - 1;
 
             var doctor = EmployeeHandler.Employees.Get(choise);
             if (doctor != null)

@@ -10,8 +10,9 @@ namespace _5._1
         public string Name { get; set; }
         public IRepository<ActionWithPatient> Actions { get; set; }
 
-        public Employee(string name)
+        public Employee(string name, IRepository<ActionWithPatient> repository)
         {
+            this.Actions = repository;
             this.Name = name;
         }
     }
